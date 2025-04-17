@@ -1,6 +1,6 @@
 sudo sed -i.bak '/ swap /s/^/#/' /etc/fstab
 
-sudo kubeadm init  --pod-network-cidr=10.1.0/16
+sudo kubeadm init  --pod-network-cidr=10.1.0.0/16
 # Set up kubectl
 mkdir -p $HOME/.kube
 sudo cp /etc/kubernetes/admin.conf $HOME/.kube/config

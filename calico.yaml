@@ -1179,8 +1179,8 @@ spec:
                   properties:
                     creationGracePeriod:
                       description: |2-
-                       CreationGracePeriod gives a generic grace period to new connection
-                       before they are considered for cleanup [Default: 10s].
+                        CreationGracePeriod gives a generic grace period to new connection
+                        before they are considered for cleanup [Default: 10s].
                       pattern: ^(([0-9]*(\.[0-9]*)?(ms|s|h|m|us)+)+|Auto)$
                       type: string
                     genericTimeout:
